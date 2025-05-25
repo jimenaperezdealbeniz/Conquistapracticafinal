@@ -27,6 +27,9 @@ public abstract class Unidad {
     public int getDefensa() { return defensa; }
     public int getRangoMovimiento() { return rangoMovimiento; }
     public int getRangoAtaque() { return rangoAtaque; }
+    public Jugador getJugador() {
+        return jugador;
+    }
 
     public void recibirDanio(int danio) {
         hp -= Math.max(danio - defensa, 0);
