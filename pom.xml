@@ -81,7 +81,7 @@
                         <id>default-cli</id>
                         <configuration>
                             <mainClass>
-                                com.example.conquistapracticafinal/com.example.conquistapracticafinal.HelloApplication
+                                com.example.conquistapracticafinal/PF.main.java.com.example.conquistapracticafinal.HelloApplication
                             </mainClass>
                             <launcher>app</launcher>
                             <jlinkZipName>app</jlinkZipName>
